@@ -1,0 +1,31 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.ant-table-thead > tr > th {
+  color: white;
+  background: #D2E3EF !important;
+  font-weight: 700;
+  font-size: 16px;
+}
+.ant-tree-title{
+  font-weight: 600px !important;
+}
+.cc.ant-tree-node-content-wrapper-open > span {
+  font-weight: 600px !important;
+}
+
+.ant-table-row-selected {
+  background: black !important;
+}
+* {
+  box-sizing: border-box;
+}
